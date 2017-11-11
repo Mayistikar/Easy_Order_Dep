@@ -1,0 +1,159 @@
+/**********************************
+BODY CSS
+- Modificado solo el background de imagenes
+***********************************/
+body{
+    background-image: url(../img/bgTexturaCafe.jpg);    
+    background-repeat: repeat;    
+}
+
+/**********************************
+MAIN CSS
+- Modificado solo el background de imagenes
+***********************************/
+
+aside div.container-fluid{
+	
+    /*
+	background-color: #A08956;
+	padding-left: 0px;
+    padding-right: 0px;
+	border-radius: 5px;
+	*/	
+}
+
+article div.form-group{    
+    padding-left: 0px;    
+}
+
+/**********************************
+HEADER CSS
+- Modificado solo el background de imagenes
+***********************************/
+
+/*********** SIN PADDING PARA LOGO NAV ***********/
+.navbar-brand {    
+    padding: 0;
+}
+
+/***********COLOR DE FONDO NAV ***********/
+.nav.navbar{
+    background-color: #A08956;    
+}
+
+/***********COLOR DE LA LETRA NAV ***********/
+.nav li a{
+    color: #3A1E08;
+    font-size: 18px;
+}
+
+/*********** COLOR DE FONDO USUARIO LISTA ***********/
+.dropdown-toggle.colordrop{
+    background:#A08956 !important;      
+}
+
+ul.dropdown-menu.user-nav{
+    background:#A08956 !important;          
+}
+
+
+/**********************************
+FOOTER CSS
+- Modifica los colores del Texto principal
+- Modifica los colores de los nombres
+- Define un color de background
+***********************************/
+
+footer{
+    background-color: #A08956; 
+}
+
+/***********COLOR DE LA LETRA FOOTER ***********/
+.team-eo strong {
+    color: #3A1E08;
+    font-size: 25px;
+}
+
+.team-names {color:#3A1E08  !important;}
+
+/*********** UBICACIÓN ICON VALIDACIÓN DOCUMENTO ***********/
+#iconTexdoc{    
+    padding-right: 163px;
+}
+
+#iconTexhoraIn{    
+    padding-right: 126px;
+}
+
+#iconTexhoraOut{    
+    padding-right: 126px;
+}
+
+/*********** COLOR ASIDE PANEL Y SUS COMPONENTES ***********/
+.panel.pan-color{
+	background-color: #A08956;
+}
+
+.panel.pan-color h4 a{
+    color: #3A1E08;
+    font-size: 18px;
+}
+
+/*********** COLOR TABLE LISTAR USERS ***********/
+td{	
+	background-color: #A08956;
+    color: #3A1E08;
+/** font-size: 18px; **/
+	text-align: center;
+}
+
+/*********** TAMAÑO Y COLOR MODAL EDICIÓN ***********/
+#modalEditUser .modal-dialog  {width:75%;}
+
+#modalEditUser .modal-header  {
+	background-color: #A08956;
+	-webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+
+#modalEditUser .modal-body  { background-color: #3A1E08; }
+
+#modalEditUser .modal-footer  {
+	background-color: #3A1E08;
+	-webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+}
+
+/*********** TAMAÑO Y COLOR MODAL DETALLE ***********/
+#modalDetaUser .modal-dialog  {width:75%;}
+
+#modalDetaUser .modal-header  {
+	background-color: #A08956;
+	-webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+}
+
+#modalDetaUser .modal-body  { background-color: #3A1E08; }
+
+#modalDetaUser .modal-footer  {
+	background-color: #3A1E08;
+	-webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+}
+

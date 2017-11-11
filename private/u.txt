@@ -1,0 +1,1 @@
+localhost;root;root;easy_order; # localhost;easy_order_user;easy_order_user_pass_$%!&;easy_order;  Este documento no debe cambiarse sin la supervisión del administrador de la base de datos. Cualquier edición del documento debe seguir el siguiente patrón: ip user pass db ;
