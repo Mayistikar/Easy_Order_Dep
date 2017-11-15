@@ -56,11 +56,11 @@ class PedidoController extends Controller{
         $id_prod = $_POST["id_prod"];
         $this->cant = "'".$_POST["cantidad"]."'";        
         
-        $this->pedido = new PedidoModelMenu();     
+        $this->pedido = new PedidoModelMenu();        
         $this->pedido->numero_mesa_ord = $_POST["numero_mesa"];
         $this->pedido->etapa_ord = "'".$_POST["etapa"]."'";
         $this->pedido->hora_ord = $this->current_hour;
-        //Se registra el pedido        
+        //Se registra el pedido      
         $this->pedido->crear($this->pedido);
         //Se registra el detalle del pedido        
         $this->selfController->actionDetallepedido($this->current_hour, $this->cant, $id_prod);

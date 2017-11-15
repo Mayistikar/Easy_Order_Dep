@@ -59,7 +59,7 @@ Fecha creación: 30/09/2017 | 04:02:54 AM.
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle colordrop" data-toggle="dropdown" role="button">
                                         <i class="glyphicon glyphicon-user"></i>
-                                        <?= $user ?>                                        
+                                        Chef                                       
                                         <span class="caret"></span>
                                     </a>
                                     <ul class="dropdown-menu user-nav">

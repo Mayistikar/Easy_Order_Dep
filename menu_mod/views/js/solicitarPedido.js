@@ -21,7 +21,7 @@ function solicitarPedido(id){
         
         $.ajax({
             data: parametros,
-            url: '../../Pedido/Guardarpedido',
+            url: '../../menu_mod/Pedido/Guardarpedido',
             type: 'post',
             
             success:  function (response) { //una vez que el archivo recibe el request lo procesa y lo devuelve                

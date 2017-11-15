@@ -381,7 +381,7 @@ class Model {
         //echo $sql;
         //$params = ["estado" => $estado];
         $result = DB::query($sql, $params);
-        //print_r($result);
+        //print_r($result);        
     }    
     
     

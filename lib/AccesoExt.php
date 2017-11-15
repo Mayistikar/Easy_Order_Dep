@@ -31,7 +31,7 @@ class AccesoExt{
         
          try
         {
-          $fileName = '/Easy_Order_Dev_ARC/private/u.txt';		  
+          $fileName = '.\private\u.txt';
 
           if ( !file_exists($fileName) ) {
             throw new Exception('File not found.');

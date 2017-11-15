@@ -91,7 +91,7 @@ class Producto extends Model{
     public $fecha_vence_prod = "''";
     public $iva_prod = "''";
     public $tiempo_preparar_prod = "''";
-    public $estado_prod = "''";
+    public $estado_prod = "'EMPACADO'";
     public $ingredientes_prod = "''";
     public $cantidad_prod = "''";
     public $cod_unid_med = "''";
