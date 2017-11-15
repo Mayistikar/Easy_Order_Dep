@@ -38,3 +38,22 @@ function solicitarPedido(id){
             }
         });
 }
+
+function ordenarPedido(id){
+    var productos = {};
+    var totalPedido = 0;
+    
+    if(localStorage.getItem("productos") !== null){
+        productos = JSON.parse(localStorage.getItem("productos"));
+    }
+    
+    if(localStorage.getItem("totalPedido")!== null){
+        totalPedido = localStorage.getItem("totalPedido");
+    }
+    
+    productos['#idProd'+id] = $('#idProd'+id).val();
+    
+    localStorage.setItem("productos", JSON.stringify(productos));
+    localStorage.setItem("totalPedido", JSON.stringify(totalPedido));    
+    
+}

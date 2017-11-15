@@ -52,6 +52,14 @@ Fecha creación: 30/09/2017 | 04:05:12 AM.
             </div>
         </div>
     </footer>
+
+    <!-- AGREGANDO FUNCIONES ALERTIFYJS Y MOBILE-->
+    <script src="/Easy_Order_Dev_ARC/lib/alertifyjs/alertify.min.js"></script>
+    <!-- AGREGANDO FUNCIONES ALERTIFYJS Y MOBILE-->
+        
+    <!-- AGREGANDO FUNCIONES NEGOCIO-->
+    <script src="/Easy_Order_Dev_ARC/menu_mod/views/js/solicitarPedido.js"></script>
+    <!-- AGREGANDO FUNCIONES NEGOCIO-->   
          
     </body>
 </html>
