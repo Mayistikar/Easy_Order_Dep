@@ -32,8 +32,9 @@
                                                 <input type="number" class="form-control" name="cant000<?= $data ?>" id="cant000<?= $data ?>" min="0" value="0">
                                                 <input type="hidden" value="<?= $mesa ?>" name="mesa<?= $data ?>" id="mesa<?= $data ?>">
                                                 <br>
-                                                <button id="000<?= $data ?>" onclick="solicitarPedido(<?= $data ?>)" class="btn btn-success"><h4><span class="icon-comida-3"></span> <b>Ordenar</b></h4>
+                                                <button id="000<?= $data ?>" onclick="guardarPedido(<?= $data ?>)" class="btn btn-success"><h4><span class="icon-comida-3"></span> <b>Ordenar</b></h4>
                                             </div>
+                                            
                                         </div>
                                     </div>
                                 </div>

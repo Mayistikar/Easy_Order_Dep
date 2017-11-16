@@ -36,13 +36,7 @@ Fecha creación: 30/09/2017 | 04:02:54 AM.
 		<link rel="stylesheet" href="/Easy_Order_Dev_ARC/lib/alertifyjs/css/themes/bootstrap.min.css">
 		<!-- AGREGANDO ESTILOS ALERTIFY -->   
    
-        <!-- AGREGANDO FUNCIONES ALERTIFYJS Y MOBILE-->
-		<script src="/Easy_Order_Dev_ARC/lib/alertifyjs/alertify.min.js"></script>
-		<!-- AGREGANDO FUNCIONES ALERTIFYJS Y MOBILE-->
-        
-                <!-- AGREGANDO FUNCIONES NEGOCIO-->
-		<script src="/Easy_Order_Dev_ARC/menu_mod/views/js/solicitarPedido.js"></script>
-		<!-- AGREGANDO FUNCIONES NEGOCIO-->                
+             
     </head>
     <body>
         <header>           

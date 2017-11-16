@@ -7,7 +7,18 @@ Descripción: Vista plantilla general para pintar el footer y cargar archivos js
 Autor: andersonrodriguezce@gmail.com.
 Fecha creación: 30/09/2017 | 04:05:12 AM.
 -->
-    
+    <--  CAPA HIDDEN QUE MUESTRA LA LISTA DE PRODUCTOS ADQUIRIDOS -->
+    <div class="row container" id="capa">
+        <div class="form-group">
+            <button type="submit" id="ordenar" class="btn btn-success hidden">
+                <h4><span class="icon-comida-3"></span> <b>Ordenar</b></h4>
+            </button>
+        </div>
+        <h3>
+            <p id="compra" class="hidden">Adquirido:</p>
+        </h3>
+    </div>
+
     <footer>
         <div class="container">
             <div class="row">
